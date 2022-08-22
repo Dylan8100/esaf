@@ -1,0 +1,219 @@
+
+/*-------------------Pestañas de Servicios------------*/
+/*Tamaño tarjeta*/
+.card{
+	width: 11rem;
+}
+/*Nombre servicio*/
+.card-header{
+	font-size: 16px;
+	background-color: #33559E;
+	color: #f1f1f1;
+	height: 4.5rem;
+}
+/*espaciado entre tarjetas*/
+.nav-item{
+	margin-left: -4px;
+}
+/*Cambio de color al estar activo*/
+#servicios .nav-link{
+	filter: grayscale();
+}
+#servicios a.nav-link.active{
+	filter: none !important;
+}
+
+/*Contenido menus*/
+#salud .submenus{
+	background-color: #E9EFF4;
+	border-radius: 10px;
+	padding: 2% 2% 1% 2.5%;
+	font-size: 14px;
+	color: #6D6D6D;
+	height: 115px;
+}
+#educacion .submenus{
+	background-color: #E9EFF4;
+	border-radius: 10px;
+	padding: 2% 2% 1% 2.5%;
+	font-size: 14px;
+	color: #6D6D6D;
+	height: 95px;
+}
+#investigacion .submenus{
+	background-color: #E9EFF4;
+	border-radius: 10px;
+	padding: 2% 2% 1% 2.5%;
+	font-size: 14px;
+	color: #6D6D6D;
+	height: 165px;
+}
+#organizacional .submenus{
+	background-color: #E9EFF4;
+	border-radius: 10px;
+	padding: 2% 2% 1% 2.5%;
+	font-size: 14px;
+	color: #6D6D6D;
+	height: 115px;
+}
+
+#contenido .nav-item{
+	margin-bottom: 5%;
+}
+#contenido a.nav-link{
+	font-size: 14px;
+	letter-spacing: 0px;
+	padding: 0px 0px 0px 3px;
+}
+#contenido a.nav-link.active{
+	border-left: 2px solid #548BCA;
+	border-radius: 1px;
+	color: #548BCA;
+}
+
+/*Información pestañas*/
+.info{
+	font-size: 18px;
+	text-align: justify;
+	color: #232323;
+}
+.guion{
+	margin-right: 2%;
+	margin-left: 2%;
+}
+
+/*----------------------Footer---------------------*/
+footer{
+    z-index: 2;
+    width: 100%;
+    bottom: 0;
+	background: #1D3556;
+	padding: 5px 0px;
+	color: #fff;
+}
+footer a{
+    font-size: 14px;
+    color: white;
+}
+footer a:hover{
+    color: #8B95A2;
+}
+footer p{
+    line-height: 16px;
+}
+.seccion-final{
+    justify-content: space-around;
+    padding: 20px 100px 20px 100px; 
+}
+.espacio{
+	margin-bottom: 10%;
+}
+
+/*------------------------------------------
+----------------Pagina Ayudame--------------
+-------------------------------------------*/
+.titulo{
+	color: #34569E;
+	border-bottom: 3px solid #8DC044;
+	border-radius: 1px;
+}
+.parrafo{
+	text-align: justify;
+	font-size: 16px;
+	color:#232323;
+}
+
+/*Leer mas*/
+.estado{
+	display: none;
+}
+.leer-mas{
+	opacity: 0%;
+	font-size: 0px;
+	transition: .25s ease;
+}
+.leer-mas-trigger{
+	cursor: pointer;
+	display: inline-block;
+	text-align: right;
+	color: #6B6B6B;
+	font-size: 14px;
+}
+
+.estado:checked~.leer-mas{
+	opacity: 100%;
+	font-size: 16px;
+	color:#232323;
+}
+.estado~.leer-mas-trigger::before{
+	content: "Ver más...";
+}
+.estado:checked~.leer-mas-trigger::before{
+	content: "Ver menos...";
+}
+
+/*Sub Menu*/
+#opciones .submenus{
+	background-color: #E9E9E9;
+	border-radius: 10px;
+	padding: 2% 2% 1% 2.5%;
+	font-size: 14px;
+	color: #6D6D6D;
+	height: 300px;
+}
+#opciones .nav-item{
+	margin-bottom: 5%;
+}
+#opciones a.nav-link{
+	font-size: 14px;
+	letter-spacing: 0px;
+	padding: 0px 0px 0px 3px;
+}
+#opciones a.nav-link.active{
+	border-left: 2px solid #E9E9E9;
+	border-radius: 1px;
+	color: #E9E9E9;
+}
+
+/*contenido*/
+.img{
+	width: 50%;
+}
+.guion2{
+	margin-right: 2%;
+	margin-left: 2%;
+	height: 30px;
+}
+
+/*------------------------------------------
+----------------Pagina Estrategias----------
+-------------------------------------------*/
+/*Sub Menu*/
+#opciones2 .submenus{
+	background-color: #E9EFF4;
+	border-radius: 10px;
+	padding: 2% 2% 1% 2.5%;
+	font-size: 14px;
+	color: #6D6D6D;
+	height: 225px;
+}
+#opciones2 .nav-item{
+	margin-bottom: 5%;
+}
+#opciones2 a.nav-link{
+	font-size: 14px;
+	letter-spacing: 0px;
+	padding: 0px 0px 0px 3px;
+}
+#opciones2 a.nav-link.active{
+	border-left: 2px solid #548BCA;
+	border-radius: 1px;
+	color: #548BCA;
+}
+/*Contenido*/
+.img2{
+	width: 150%;
+}
+.img3{
+	width: 30%;
+}
